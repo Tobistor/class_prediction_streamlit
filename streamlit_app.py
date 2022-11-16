@@ -41,7 +41,7 @@ rf.fit(X_train, y_train)
 y_pred = rf.predict([[sepal_length, sepal_width, petal_length, petal_width]])
 
 # Print EDA
-st.subheader('Brief EDA')
+st.subheader('Brief Exploratory Data Analysis')
 st.write('The data which is grouped by class and variable mean is computed for each class.')
 groupby_species_mean = df.groupby('Species').mean()
 st.write(groupby_species_mean)
