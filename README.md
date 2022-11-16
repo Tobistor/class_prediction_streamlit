@@ -4,5 +4,5 @@ A simple machine learning app that takes in input features and applies the train
 
 The Iris dataset is used in this app.
 
-Try it out here: https://tobistor-class-prediction-streamlit-streamlit-app-ttwmet.streamlit.app/
+Try out the app here: https://tobistor-class-prediction-streamlit-streamlit-app-ttwmet.streamlit.app/
 
