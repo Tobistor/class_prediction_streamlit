@@ -8,7 +8,7 @@ from sklearn.ensemble import RandomForestClassifier
 
 # Page configuration
 st.set_page_config(
-     page_title='Simple Prediction App',
+     page_title='Simple Iris Flower Prediction App',
      page_icon='🌷',
      layout='wide',
      initial_sidebar_state='expanded')
