@@ -42,7 +42,7 @@ y_pred = rf.predict([[sepal_length, sepal_width, petal_length, petal_width]])
 
 # Print EDA
 st.subheader('Brief EDA')
-st.write('The data which is grouped by the class and the variable mean is computed for each class.')
+st.write('The data which is grouped by class and variable mean is computed for each class.')
 groupby_species_mean = df.groupby('Species').mean()
 st.write(groupby_species_mean)
 st.line_chart(groupby_species_mean.T)
