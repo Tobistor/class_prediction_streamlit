@@ -17,7 +17,7 @@ st.set_page_config(
 st.title('🌷 Simple Iris Flower Prediction App')
 
 # Load dataset
-df = pd.read_csv('https://raw.githubusercontent.com/dataprofessor/data/master/iris.csv')
+df = pd.read_csv('https://raw.githubusercontent.com/Tobistor/class_prediction_streamlit/main/iris.csv')
 
 # Input widgets
 st.sidebar.subheader('Input features')
